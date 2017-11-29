@@ -1,0 +1,13 @@
+
+public class TTHT
+{
+	public static void main(String[] args)
+	{
+		System.out.println("Tyler Thang Hung Tran"
+				+ "TTTTT  TTTTT   "
+				+ "  T      T"
+				+ "  T      T"
+				+ "  T      T");
+	}
+
+}
