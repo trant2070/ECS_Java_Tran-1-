@@ -1,0 +1,23 @@
+
+public class YourSchedule 
+{
+	public static void main( String[] args)
+	{
+		String myName, myFirst, mySecond, myThird, myFourth;
+		int myPer1, myPer2, myPer3, myPer4;
+		
+		myName= "Tyler Tran";
+		myFirst= "Modern Epic";
+		mySecond="ECS";
+		myThird= "Physics";
+		myFourth= "APUSH";
+		
+		
+		System.out.println(+ myName + "'s Class Schedule");
+		System.out.println("|Per 1  |		" + myFirst + "		|		Leal		|" );
+		System.out.println("|Per 2  |		" + mySecond + "		|		Muaro		|" );
+		System.out.println("|Per 3  |		" + myThird + "		|		Barrows		|" );
+		System.out.println("|Per 4  |		" + myFourth + "		|		Vanover		|" );
+	}
+	
+}

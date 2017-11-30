@@ -1,0 +1,17 @@
+
+public class UsingVariables 
+{
+	public static void main( String[] args)
+	{
+		int room_number, Class;
+		double e;
+		
+		room_number = 113;
+		Class = computer_science;
+		e = 2.71828;
+		
+		System.out.println("This is room #" + room_number +);
+		
+
+	}
+}
