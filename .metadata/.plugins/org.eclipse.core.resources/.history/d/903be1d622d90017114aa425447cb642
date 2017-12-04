@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+public class DumbCalculator 
+{
+	public static void main( String[] args)
+	{
+		Scanner keyboard = new Scanner(System.in);
+		
+		int first, second, third;
+		double average;
+		
+		System.out.println("Let's find the average of a few numbers...");
+		
+		System.out.println("What is the first number?");
+		first = keyboard.nextInt();
+		
+		System.out.println("What is the second number?");
+		second = keyboard.nextInt();
+		
+		System.out.println("What is the third number?");
+		third = keyboard.nextInt();
+		
+		System.out.println("The average of the three numbers is " + ((first+second+third)/3) );
+		weight = keyboard.nextDouble();
+		
+		System.out.println("So you're name is " + name + ", you are" + age + " years old, you're " + feet + "'" + inches + " , and your weigh " + weight + " pounds.");
+		
+		keyboard.close();
+	}
+}

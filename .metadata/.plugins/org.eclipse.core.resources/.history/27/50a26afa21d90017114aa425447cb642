@@ -1,0 +1,32 @@
+import java.util.Scanner;
+
+public class UserInputData 
+{
+	public static void main( String[] args)
+	{
+		Scanner keyboard = new Scanner(System.in);
+		
+		String name, lastName, login;
+		int studentID, grade;
+		Double GPA;
+		
+		System.out.println("Please enter the following information so I can sell it for profit");
+		
+		System.out.println("First name: ");
+		name = keyboard.next();
+		
+		System.out.println(" Last name: ");
+		lastName = keyboard.next();
+		
+		System.out.println("Grade (9-12): ");
+		grade = keyboard.nextInt();
+		
+		System.out.println(": ");
+		name = keyboard.next();
+		
+		System.out.println("Did you know tha tin five years you will be " + (age + 5) );
+		System.out.println("And five years ago you were " + age + "! Imagine that!");
+		
+		keyboard.close();
+	}
+}
