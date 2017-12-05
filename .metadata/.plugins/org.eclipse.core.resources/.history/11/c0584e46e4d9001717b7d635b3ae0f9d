@@ -1,0 +1,9 @@
+
+public class percent 
+{
+	public static void main( String[] args)
+	{
+		if(myVar %2 ==0) println("option1");
+	}
+	
+}

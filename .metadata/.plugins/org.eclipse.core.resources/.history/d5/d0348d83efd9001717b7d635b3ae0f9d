@@ -1,0 +1,36 @@
+import java.util.Scanner;
+
+public class ALittleQuiz 
+{
+	public static void main( String[] args)
+	{
+		Scanner keyboard = new Scanner(System.in);
+		
+		int a1;
+		
+		
+		System.out.println("Q1) What is the capital of Alaska?");
+		System.out.println(" 		1) Melbourne");
+		System.out.println(" 		2) Anchorage");
+		System.out.println(" 		3) Juneau");
+		System.out.print(">");
+		a1 = keyboard.nextInt();
+		System.out.println("");
+		
+		if(a1>2 && a1<4)
+		{
+			System.out.println("That's Right!");
+		}
+		else if(a1>0 && a1<2)
+		{
+			System.out.println("Nope");
+		}
+		else
+		{
+			System.out.println("Nope");
+		}
+		
+		
+		keyboard.close();
+	}
+}
