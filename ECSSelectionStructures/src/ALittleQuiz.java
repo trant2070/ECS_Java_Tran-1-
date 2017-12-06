@@ -4,9 +4,11 @@ public class ALittleQuiz
 {
 	public static void main( String[] args)
 	{
+		
 		Scanner keyboard = new Scanner(System.in);
 		
 		int a1, a2, a3;
+		int correctAnswers=0;
 		
 		
 		System.out.println("Q1) What is the capital of Alaska?");
@@ -20,6 +22,7 @@ public class ALittleQuiz
 		if(a1>2 && a1<4)
 		{
 			System.out.println("That's Right!");
+			correctAnswers++;
 		}
 		else if(a1>0 && a1<2)
 		{
@@ -42,6 +45,7 @@ public class ALittleQuiz
 		if(a2>1 && a2<3)
 		{
 			System.out.println("That's Right!");
+			correctAnswers++;
 		}
 		else if(a2>0 && a2<2)
 		{
@@ -55,22 +59,26 @@ public class ALittleQuiz
 		System.out.println("		3) 15/3");
 		
 		System.out.print(">");
-		a1 = keyboard.nextInt();
+		a3 = keyboard.nextInt();
 		System.out.println("");
 		
-		if(a1>1 && a1<3)
+		if(a3>1 && a3<3)
 		{
 			System.out.println("That's Right!");
+			correctAnswers++;
 		}
-		else if(a1>0 && a1<2)
+		else if(a3>0 && a3<2)
 		{
 			System.out.println("Just no.");
 		}
-		else(a1>2 && a1<4)
+		else
 		{
 			System.out.println("your KIDDING! :/");
 		}
 		System.out.println("");
+		
+		System.out.println("Overall, you got " + correctAnswers +" out of 3 correct.");
+		System.out.println("Thanks for playing!");
 		
 		keyboard.close();
 	}

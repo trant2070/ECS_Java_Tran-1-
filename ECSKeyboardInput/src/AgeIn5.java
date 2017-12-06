@@ -16,7 +16,7 @@ public class AgeIn5
 		age = keyboard.nextInt();
 		
 		System.out.println("Did you know tha tin five years you will be " + (age + 5) );
-		System.out.println("And five years ago you were " + age + "! Imagine that!");
+		System.out.println("And five years ago you were " + (age - 5) + "! Imagine that!");
 		
 		keyboard.close();
 	}
