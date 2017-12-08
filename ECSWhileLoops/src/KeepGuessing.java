@@ -21,6 +21,7 @@ public class KeepGuessing
 		System.out.println("That is incorrect. guess again.");
 		System.out.print("Your guess: ");
 		num = keyboard.nextInt();
+		
 	}
 	
 	System.out.println("That's right! Your're a good guesser.");

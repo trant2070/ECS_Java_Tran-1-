@@ -5,8 +5,8 @@ public class Dice
 	public static void main ( String[] args )
 	{
 		Random r = new Random();
-		int x =  r.nextInt(6);
-		int y = r.nextInt(6);
+		int x = 1+  r.nextInt(6);
+		int y = 1 + r.nextInt(6);
 
 		
 		System.out.println("Roll #1: " + x);

@@ -40,7 +40,7 @@ public class Magic8Ball
 		else if ( choice == 15 )
 			response = "Concentrate and ask again";
 		else if ( choice == 16 )
-			response = "yout thought bruh";
+			response = "you thought bruh";
 		else if ( choice == 17 )
 			response = "I cringed so hard my heart fell out";
 		else if ( choice == 18 )
