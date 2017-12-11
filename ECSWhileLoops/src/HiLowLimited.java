@@ -23,11 +23,11 @@ public class HiLowLimited
 		{
 			if(num1 < x)
 			{
-				System.out.println("Sorry, you are too low. I was thinking of " +  x + "." );
+				System.out.println("Sorry, you are too low." );
 			}
 			if(num1 > x)
 			{
-			System.out.println("Sorry, you are too High. I was thinking of " +  x + ".");
+			System.out.println("Sorry, you are too High.");
 		
 			}
 			if(num1 == x)
