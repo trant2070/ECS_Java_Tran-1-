@@ -1,0 +1,10 @@
+import java.util.Scanner;
+
+public class Calculator
+{
+  public static void main( String[]args)
+  {
+    System.out.println("This is a calculator!");
+    System.out.println("Insert your calculation as '### operator ###'");
+  }
+}
