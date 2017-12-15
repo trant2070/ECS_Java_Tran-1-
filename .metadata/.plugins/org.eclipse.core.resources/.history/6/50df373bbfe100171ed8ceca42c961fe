@@ -1,0 +1,10 @@
+
+public class rando {
+
+	public static double testMethod ( String myString )
+	{
+	double myNum = 3.45;
+	return myNum;
+
+	}
+}
